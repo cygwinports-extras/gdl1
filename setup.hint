@@ -1,0 +1,7 @@
+category: Gnome
+requires: cygwin libbonoboui2 libglade2 libgnomeui2
+sdesc: "GNOME development tools library (runtime)"
+ldesc: "Gnome Devtool Libraries
+This package contains components and libraries that are intended to be
+shared between GNOME development tools, including gnome-debug,
+gnome-build, and anjuta2."
