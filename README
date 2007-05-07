@@ -8,14 +8,14 @@ gnome-build, and anjuta2.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  gdk-pixbuf2-2.10.9-1
-  glib2-2.12.9-1
+  gdk-pixbuf2-2.10.11-1
+  glib2-2.12.11-1
   gnome-vfs2-2.16.2-1
-  gtk2-x11-2.10.7-1
+  gtk2-x11-2.10.11-1
   libglade2-2.6.0-1
   libgnomeui2-2.16.1-1
   libintl8-0.15-1
-  libxml2-2.6.27-1
+  libxml2-2.6.28-1
   pango-1.14.10-1
 
 Build requirements:
@@ -41,16 +41,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gdl1-0.7.3-X-src.tar.bz2
+  unpack gdl1-0.7.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gdl1-0.7.3-X.cygport all
+  cygport ./gdl1-0.7.5-X.cygport all
 
 This will create:
-  /usr/src/gdl1-0.7.3-X-src.tar.bz2
-  /usr/src/gdl1-0.7.3-X.tar.bz2
-  /usr/src/gdl1-devel-0.7.3-X.tar.bz2
+  /usr/src/gdl1-0.7.5-X-src.tar.bz2
+  /usr/src/gdl1-0.7.5-X.tar.bz2
+  /usr/src/gdl1-devel-0.7.5-X.tar.bz2
 
 -------------------------------------------
 
@@ -59,14 +59,14 @@ Files included in the binary package:
 (gdl1)
   /usr/bin/cyggdl-1-0.dll
   /usr/bin/cyggdl-gnome-1-0.dll
-  /usr/share/doc/Cygwin/gdl1-0.7.3.README
-  /usr/share/doc/gdl1-0.7.3/AUTHORS
-  /usr/share/doc/gdl1-0.7.3/COPYING
-  /usr/share/doc/gdl1-0.7.3/ChangeLog
-  /usr/share/doc/gdl1-0.7.3/INSTALL
-  /usr/share/doc/gdl1-0.7.3/MAINTAINERS
-  /usr/share/doc/gdl1-0.7.3/NEWS
-  /usr/share/doc/gdl1-0.7.3/README
+  /usr/share/doc/Cygwin/gdl1-0.7.5.README
+  /usr/share/doc/gdl1-0.7.5/AUTHORS
+  /usr/share/doc/gdl1-0.7.5/COPYING
+  /usr/share/doc/gdl1-0.7.5/ChangeLog
+  /usr/share/doc/gdl1-0.7.5/INSTALL
+  /usr/share/doc/gdl1-0.7.5/MAINTAINERS
+  /usr/share/doc/gdl1-0.7.5/NEWS
+  /usr/share/doc/gdl1-0.7.5/README
   /usr/share/gdl/glade/layout.glade
   /usr/share/locale/am/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/az/LC_MESSAGES/gdl-1.mo
@@ -132,6 +132,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.7.5-1 -----
+Version bump.
 
 ----- version 0.7.3-1 -----
 Version bump.
