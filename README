@@ -8,15 +8,15 @@ gnome-build, and anjuta2.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  gdk-pixbuf2-2.10.12-1
-  glib2-2.12.12-1
-  gnome-vfs2-2.16.3-1
-  gtk2-x11-2.10.12-1
-  libglade2-2.6.0-1
-  libgnomeui2-2.16.1-1
+  gdk-pixbuf2-2.10.14-1
+  glib2-2.12.13-1
+  gnome-vfs2-2.18.1-1
+  gtk2-x11-2.10.14-1
+  libglade2-2.6.1-1
+  libgnomeui2-2.18.1-1
   libintl8-0.15-1
-  libxml2-2.6.28-2
-  pango-1.16.4-1
+  libxml2-2.6.29-1
+  pango-1.16.5-1
 
 Build requirements:
 (besides corresponding devel packages)
@@ -24,7 +24,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.3.1-1
+  cygport-0.3.5-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   libtool1.5-1.5.23a-2
@@ -41,16 +41,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gdl1-0.7.6-X-src.tar.bz2
+  unpack gdl1-0.7.7-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gdl1-0.7.6-X.cygport all
+  cygport ./gdl1-0.7.7-X.cygport all
 
 This will create:
-  /usr/src/gdl1-0.7.6-X-src.tar.bz2
-  /usr/src/gdl1-0.7.6-X.tar.bz2
-  /usr/src/gdl1-devel-0.7.6-X.tar.bz2
+  /usr/src/gdl1-0.7.7-X-src.tar.bz2
+  /usr/src/gdl1-0.7.7-X.tar.bz2
+  /usr/src/gdl1-devel-0.7.7-X.tar.bz2
 
 -------------------------------------------
 
@@ -59,14 +59,14 @@ Files included in the binary package:
 (gdl1)
   /usr/bin/cyggdl-1-0.dll
   /usr/bin/cyggdl-gnome-1-0.dll
-  /usr/share/doc/Cygwin/gdl1-0.7.6.README
-  /usr/share/doc/gdl1-0.7.6/AUTHORS
-  /usr/share/doc/gdl1-0.7.6/COPYING
-  /usr/share/doc/gdl1-0.7.6/ChangeLog
-  /usr/share/doc/gdl1-0.7.6/INSTALL
-  /usr/share/doc/gdl1-0.7.6/MAINTAINERS
-  /usr/share/doc/gdl1-0.7.6/NEWS
-  /usr/share/doc/gdl1-0.7.6/README
+  /usr/share/doc/Cygwin/gdl1-0.7.7.README
+  /usr/share/doc/gdl1-0.7.7/AUTHORS
+  /usr/share/doc/gdl1-0.7.7/COPYING
+  /usr/share/doc/gdl1-0.7.7/ChangeLog
+  /usr/share/doc/gdl1-0.7.7/INSTALL
+  /usr/share/doc/gdl1-0.7.7/MAINTAINERS
+  /usr/share/doc/gdl1-0.7.7/NEWS
+  /usr/share/doc/gdl1-0.7.7/README
   /usr/share/gdl/glade/layout.glade
   /usr/share/locale/am/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/az/LC_MESSAGES/gdl-1.mo
@@ -132,6 +132,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.7.7-1 -----
+Version bump.
 
 ----- version 0.7.6-1 -----
 Version bump.
