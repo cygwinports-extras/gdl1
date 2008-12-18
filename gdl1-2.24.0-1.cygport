@@ -1,0 +1,8 @@
+ORIG_PN="gdl"
+inherit gnome2
+
+DESCRIPTION="GNOME development tools library"
+
+PKG_NAMES="${PN} lib${PN}_0 lib${PN}-devel"
+libgdl1_0_CONTENTS="usr/bin/*-1-0.dll usr/share/doc/ usr/share/gdl/ usr/share/locale/"
+libgdl1_devel_CONTENTS="usr/include/ usr/lib/ usr/share/gtk-doc/"

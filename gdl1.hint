@@ -1,6 +1,5 @@
 category: Gnome
-requires: cygwin gdk-pixbuf2 glib2 gnome-vfs2 gtk2-x11 libglade2 libgnomeui2 libintl8 libxml2 pango
-sdesc: "GNOME development tools library (runtime)"
+sdesc: "GNOME development tools library (sources)"
 ldesc: "Gnome Devtool Libraries
 This package contains components and libraries that are intended to be
 shared between GNOME development tools, including gnome-debug,
