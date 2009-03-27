@@ -7,28 +7,29 @@ shared between GNOME development tools, including gnome-debug,
 gnome-build, and anjuta2.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libgdk_pixbuf2.0_0-2.14.5-1
-  libglade2.0_0-2.6.3-2
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.5-1
-  libintl8-0.17-2
-  libpango1.0_0-1.22.3-1
-  libxml2-2.7.2-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.0-1
+  libglade2.0_0-2.6.4-1
+  libglib2.0_0-2.20.0-1
+  libgtk2.0_0-2.16.0-1
+  libintl8-0.17-10
+  libpango1.0_0-1.24.0-1
+  libxml2-2.7.3-10
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gettext-devel-0.17-2
-  gnome-common-2.24.0-1
-  gtk-doc-1.11-1
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gettext-devel-0.17-10
+  gnome-common-2.26.0-1
+  gtk-doc-1.11-2
+  libtool-2.2.6a-2
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -41,16 +42,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gdl1-2.24.0-X-src.tar.bz2
+  unpack gdl1-2.26.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gdl1-2.24.0-X.cygport all
+  cygport ./gdl1-2.26.0-X.cygport all
 
 This will create:
-  /usr/src/gdl1-2.24.0-X-src.tar.bz2
-  /usr/src/libgdl1-devel-2.24.0-X.tar.bz2
-  /usr/src/libgdl1_0-2.24.0-X.tar.bz2
+  /usr/src/gdl1-2.26.0-X-src.tar.bz2
+  /usr/src/libgdl1-devel-2.26.0-X.tar.bz2
+  /usr/src/libgdl1_0-2.26.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -58,16 +59,16 @@ Files included in the binary package:
 
 (libgdl1_0)
   /usr/bin/cyggdl-1-0.dll
-  /usr/share/doc/gdl1-2.24.0/AUTHORS
-  /usr/share/doc/gdl1-2.24.0/COPYING
-  /usr/share/doc/gdl1-2.24.0/ChangeLog
-  /usr/share/doc/gdl1-2.24.0/INSTALL
-  /usr/share/doc/gdl1-2.24.0/MAINTAINERS
-  /usr/share/doc/gdl1-2.24.0/NEWS
-  /usr/share/doc/gdl1-2.24.0/README
+  /usr/share/doc/gdl1/AUTHORS
+  /usr/share/doc/gdl1/COPYING
+  /usr/share/doc/gdl1/ChangeLog
+  /usr/share/doc/gdl1/MAINTAINERS
+  /usr/share/doc/gdl1/NEWS
+  /usr/share/doc/gdl1/README
   /usr/share/gdl/glade/layout.glade
   /usr/share/locale/am/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/ar/LC_MESSAGES/gdl-1.mo
+  /usr/share/locale/ast/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/az/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/bg/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/ca/LC_MESSAGES/gdl-1.mo
@@ -85,6 +86,7 @@ Files included in the binary package:
   /usr/share/locale/fr/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/ga/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/gl/LC_MESSAGES/gdl-1.mo
+  /usr/share/locale/gu/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/he/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/hi/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/hr/LC_MESSAGES/gdl-1.mo
@@ -101,11 +103,13 @@ Files included in the binary package:
   /usr/share/locale/ne/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/nl/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/oc/LC_MESSAGES/gdl-1.mo
+  /usr/share/locale/or/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/pa/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/pl/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/ps/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/pt/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/gdl-1.mo
+  /usr/share/locale/ro/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/ru/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/rw/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/si/LC_MESSAGES/gdl-1.mo
@@ -115,6 +119,7 @@ Files included in the binary package:
   /usr/share/locale/sr/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/sr@latin/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/sv/LC_MESSAGES/gdl-1.mo
+  /usr/share/locale/te/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/th/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/tr/LC_MESSAGES/gdl-1.mo
   /usr/share/locale/uk/LC_MESSAGES/gdl-1.mo
@@ -156,7 +161,6 @@ Files included in the binary package:
   /usr/share/gtk-doc/html/gdl/GdlDockPlaceholder.html
   /usr/share/gtk-doc/html/gdl/GdlDockTablabel.html
   /usr/share/gtk-doc/html/gdl/GdlSwitcher.html
-  /usr/share/gtk-doc/html/gdl/gdl-gdl-stock.html
   /usr/share/gtk-doc/html/gdl/gdl-gdl-tools.html
   /usr/share/gtk-doc/html/gdl/gdl-main.html
   /usr/share/gtk-doc/html/gdl/gdl.devhelp
@@ -173,42 +177,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2.24.0-1 -----
-Version bump for GNOME 2.24.
-
------ version 0.7.11-1 -----
-Version bump for GNOME 2.22.
-
------ version 0.7.8-1 -----
-Version bump.
-
------ version 0.7.7-1 -----
-Version bump.
-
------ version 0.7.6-1 -----
-Version bump.
-
------ version 0.7.5-1 -----
-Version bump.
-
------ version 0.7.3-1 -----
-Version bump.
-
------ version 0.7.2-1 -----
-Version bump.
-
------ version 0.7.1-1 -----
-Version bump.
-
------ version 0.7.0-1 -----
-Major version bump.
-
------ version 0.6.1-1 -----
-Version bump.
-Created separate devel package.
-
------ version 0.6.0-1 -----
-Initial release for Cygwin.
+----- version 2.26.0-1 -----
+Initial release of GNOME 2.24 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
