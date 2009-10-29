@@ -1,7 +1,6 @@
 category: Gnome
-requires: libgdl1_3 libgdk_pixbuf2.0-devel libglib2.0-devel libgtk2.0-devel gettext libpango1.0-devel libxml2-devel
 external-source: gdl1
-sdesc: "GNOME development tools library (development)"
+sdesc: "GNOME development tools library (runtime data)"
 ldesc: "Gnome Devtool Libraries
 This package contains components and libraries that are intended to be
 shared between GNOME development tools, including gnome-debug,

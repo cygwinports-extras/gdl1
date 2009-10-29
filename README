@@ -7,28 +7,27 @@ shared between GNOME development tools, including gnome-debug,
 gnome-build, and anjuta2.
 
 Runtime requirements:
-  cygwin-1.7.0-48
-  libgcc1-4.3.2-2
-  libgdk_pixbuf2.0_0-2.16.3-1
-  libglade2.0_0-2.6.4-1
-  libglib2.0_0-2.20.3-1
-  libgtk2.0_0-2.16.2-1
-  libintl8-0.17-10
-  libpango1.0_0-1.24.2-1
-  libxml2-2.7.3-10
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libgdk_pixbuf2.0_0-2.18.3-1
+  libglib2.0_0-2.22.2-1
+  libgtk2.0_0-2.18.3-1
+  libintl8-0.17-11
+  libpango1.0_0-1.26.0-1
+  libxml2-2.7.4-1
 
 Build requirements:
 (besides corresponding devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.2-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  gettext-devel-0.17-10
-  gnome-common-2.26.0-2
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gettext-devel-0.17-11
+  gnome-common-2.28.0-1
   gtk-doc-1.11-2
-  libtool-2.2.7a-12
+  libtool-2.2.7a-14
   make-3.81-2
   pkg-config-0.23b-10
   sed-4.1.5-2
@@ -42,140 +41,24 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gdl1-2.26.2-X-src.tar.bz2
+  unpack gdl1-2.28.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gdl1-2.26.2-X.cygport all
+  cygport ./gdl1-2.28.1-X.cygport all
 
 This will create:
-  /usr/src/gdl1-2.26.2-X-src.tar.bz2
-  /usr/src/libgdl1-devel-2.26.2-X.tar.bz2
-  /usr/src/libgdl1_0-2.26.2-X.tar.bz2
+  /usr/src/gdl1-2.28.1-X-src.tar.bz2
+  /usr/src/libgdl1-common-2.28.1-X.tar.bz2
+  /usr/src/libgdl1-devel-2.28.1-X.tar.bz2
+  /usr/src/libgdl1_3-2.28.1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-(libgdl1_0)
-  /usr/bin/cyggdl-1-0.dll
-  /usr/share/doc/gdl1/AUTHORS
-  /usr/share/doc/gdl1/COPYING
-  /usr/share/doc/gdl1/ChangeLog
-  /usr/share/doc/gdl1/MAINTAINERS
-  /usr/share/doc/gdl1/NEWS
-  /usr/share/doc/gdl1/README
-  /usr/share/gdl/glade/layout.glade
-  /usr/share/locale/am/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ar/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ast/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/az/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/bg/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ca/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/cs/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/da/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/de/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/dz/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/el/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/en_CA/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/en_GB/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/es/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/et/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/eu/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/fi/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/fr/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ga/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/gl/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/gu/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/he/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/hi/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/hr/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/hu/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/it/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ja/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ko/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/lt/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/lv/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/mk/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ml/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/mr/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/nb/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ne/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/nl/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/oc/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/or/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/pa/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/pl/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ps/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/pt/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ro/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/ru/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/rw/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/si/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/sk/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/sl/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/sq/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/sr/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/sr@latin/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/sv/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/te/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/th/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/tr/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/uk/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/vi/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/zh_CN/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/zh_HK/LC_MESSAGES/gdl-1.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/gdl-1.mo
-
-(libgdl1-devel)
-  /usr/include/libgdl-1.0/gdl/gdl-combo-button.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock-bar.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock-item.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock-layout.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock-master.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock-notebook.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock-object.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock-paned.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock-placeholder.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock-tablabel.h
-  /usr/include/libgdl-1.0/gdl/gdl-dock.h
-  /usr/include/libgdl-1.0/gdl/gdl-stock-icons.h
-  /usr/include/libgdl-1.0/gdl/gdl-stock.h
-  /usr/include/libgdl-1.0/gdl/gdl-switcher.h
-  /usr/include/libgdl-1.0/gdl/gdl-tools.h
-  /usr/include/libgdl-1.0/gdl/gdl.h
-  /usr/include/libgdl-1.0/gdl/libgdltypebuiltins.h
-  /usr/lib/libgdl-1.dll.a
-  /usr/lib/libgdl-1.la
-  /usr/lib/pkgconfig/gdl-1.0.pc
-  /usr/share/gtk-doc/html/gdl/GdlComboButton.html
-  /usr/share/gtk-doc/html/gdl/GdlDock.html
-  /usr/share/gtk-doc/html/gdl/GdlDockBar.html
-  /usr/share/gtk-doc/html/gdl/GdlDockItem.html
-  /usr/share/gtk-doc/html/gdl/GdlDockLayout.html
-  /usr/share/gtk-doc/html/gdl/GdlDockMaster.html
-  /usr/share/gtk-doc/html/gdl/GdlDockNotebook.html
-  /usr/share/gtk-doc/html/gdl/GdlDockObject.html
-  /usr/share/gtk-doc/html/gdl/GdlDockPaned.html
-  /usr/share/gtk-doc/html/gdl/GdlDockPlaceholder.html
-  /usr/share/gtk-doc/html/gdl/GdlDockTablabel.html
-  /usr/share/gtk-doc/html/gdl/GdlSwitcher.html
-  /usr/share/gtk-doc/html/gdl/gdl-gdl-tools.html
-  /usr/share/gtk-doc/html/gdl/gdl-main.html
-  /usr/share/gtk-doc/html/gdl/gdl.devhelp
-  /usr/share/gtk-doc/html/gdl/gdl.devhelp2
-  /usr/share/gtk-doc/html/gdl/home.png
-  /usr/share/gtk-doc/html/gdl/index.html
-  /usr/share/gtk-doc/html/gdl/index.sgml
-  /usr/share/gtk-doc/html/gdl/left.png
-  /usr/share/gtk-doc/html/gdl/right.png
-  /usr/share/gtk-doc/html/gdl/style.css
-  /usr/share/gtk-doc/html/gdl/up.png
-
-------------------
-
 Port Notes:
+
+----- version 2.28.1-1 -----
+Version bump for GNOME 2.28.
 
 ----- version 2.26.2-1 -----
 Version bump.
